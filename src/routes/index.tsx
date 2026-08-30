@@ -17,7 +17,7 @@ function Home() {
     <main>
       <section className="relative min-h-dvh overflow-hidden bg-bg">
         <img
-          src={asset("guitars/ember-window.jpg?v=9")}
+          src={asset("guitars/ember-hero.svg?v=10")}
           alt="Sörhuus Ember, a hand-built electric guitar"
           className="absolute inset-0 h-full w-full object-cover object-[center_30%]"
         />
@@ -109,8 +109,8 @@ function Home() {
 
       <section className="relative min-h-[70vh] overflow-hidden border-t border-border">
         <img
-          src={asset("guitars/kveld-rom.jpg?v=9")}
-          alt="Kveld in the atelier"
+          src={asset("guitars/kveld-hero.svg?v=10")}
+          alt="Kveld in the studio"
           className="absolute inset-0 h-full w-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-bg/55" />
