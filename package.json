@@ -10,6 +10,7 @@
     "dev": "node scripts/with-app-env.mjs vite dev --host 0.0.0.0 --port 8080",
     "build": "node scripts/with-app-env.mjs vite build && npm run db:migrate",
     "build:pages": "GITHUB_PAGES=1 node scripts/with-app-env.mjs vite build && node -e \"const fs=require('fs'); const p='dist/client'; fs.copyFileSync(p+'/_shell.html', p+'/index.html'); fs.copyFileSync(p+'/_shell.html', p+'/404.html'); fs.writeFileSync(p+'/.nojekyll','');\"",
+    "build:site": "SPA=1 node scripts/with-app-env.mjs vite build && node -e \"const fs=require('fs'); const p='dist/client'; fs.copyFileSync(p+'/_shell.html', p+'/index.html'); fs.copyFileSync(p+'/_shell.html', p+'/404.html'); fs.writeFileSync(p+'/.nojekyll','');\"",
     "db:migrate": "node scripts/migrate.mjs",
     "build:dev": "node scripts/with-app-env.mjs vite build --mode development",
     "preview": "node scripts/with-app-env.mjs vite preview",
