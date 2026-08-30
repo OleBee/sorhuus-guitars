@@ -22,9 +22,9 @@ function AtelierPage() {
 
       <div className="mx-auto mt-14 max-w-7xl px-5 sm:px-8">
         <img
-          src={asset("guitars/kveld-rom.jpg?v=9")}
-          alt="The atelier — a quiet room, one instrument"
-          className="aspect-[16/10] w-full object-cover outline outline-1 -outline-offset-1 outline-fg/10"
+          src={asset("guitars/ember-hero.svg?v=10")}
+          alt="Ember — studio portrait"
+          className="aspect-[16/10] w-full bg-surface object-contain outline outline-1 -outline-offset-1 outline-fg/10"
         />
       </div>
 
@@ -51,14 +51,14 @@ function AtelierPage() {
 
       <div className="mx-auto grid max-w-7xl gap-6 px-5 sm:px-8 lg:grid-cols-2">
         <img
-          src={asset("guitars/kveld-gulv.jpg?v=9")}
-          alt="Kveld, photographed in the room"
-          className="aspect-[4/5] w-full object-cover outline outline-1 -outline-offset-1 outline-fg/10 lg:aspect-[16/10]"
+          src={asset("guitars/host-hero.svg?v=10")}
+          alt="Høst, studio portrait"
+          className="aspect-[4/5] w-full bg-surface object-contain outline outline-1 -outline-offset-1 outline-fg/10 lg:aspect-[16/10]"
         />
         <img
-          src={asset("guitars/kveld-balkong.jpg?v=9")}
-          alt="Kveld, photographed in use"
-          className="aspect-[4/5] w-full object-cover object-top outline outline-1 -outline-offset-1 outline-fg/10 lg:aspect-[16/10]"
+          src={asset("guitars/kveld-hero.svg?v=10")}
+          alt="Kveld, studio portrait"
+          className="aspect-[4/5] w-full bg-surface object-contain outline outline-1 -outline-offset-1 outline-fg/10 lg:aspect-[16/10]"
         />
       </div>
 
