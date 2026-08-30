@@ -30,6 +30,8 @@ export const STATUS_LABEL: Record<GuitarStatus, string> = {
   hold: "On hold",
 };
 
+const V = "v=11";
+
 export const guitars: Guitar[] = [
   {
     slug: "ember",
@@ -44,12 +46,11 @@ export const guitars: Guitar[] = [
       "Ember is a carved solidbody with two humbuckers and a three-and-three headstock. Dark sunburst, block inlays, and chrome — built for weight, sustain, and a warm midrange.",
     story:
       "Photographed in the studio against charcoal. The carved maple top reads in sidelight; the burst falls to black at the edge.",
-    hero: asset("guitars/ember-hero.svg?v=10"),
+    hero: asset(`guitars/ember-hero.svg?${V}`),
     gallery: [
-      asset("guitars/ember-hero.svg?v=10"),
-      asset("guitars/ember-angle.svg?v=10"),
-      asset("guitars/ember-alt.svg?v=10"),
-      asset("guitars/ember-wide.svg?v=10"),
+      asset(`guitars/ember-hero.svg?${V}`),
+      asset(`guitars/ember-angle.svg?${V}`),
+      asset(`guitars/ember-alt.svg?${V}`),
     ],
     specs: [
       { label: "Body", value: "Carved solidbody" },
@@ -73,8 +74,8 @@ export const guitars: Guitar[] = [
       "Rav is Ember’s sister in open wood — a carved single-cut in honey and amber, two humbuckers, and a six-in-line headstock. Same intent, more light in the lacquer.",
     story:
       "Studio portrait on charcoal. The grain of the top is left to speak; no burst, no theatre.",
-    hero: asset("guitars/rav-hero.svg?v=10"),
-    gallery: [asset("guitars/rav-hero.svg?v=10")],
+    hero: asset(`guitars/rav-hero.svg?${V}`),
+    gallery: [asset(`guitars/rav-hero.svg?${V}`)],
     specs: [
       { label: "Body", value: "Carved solidbody" },
       { label: "Neck", value: "Set-in, six-in-line" },
@@ -97,8 +98,8 @@ export const guitars: Guitar[] = [
       "Høst is a bolt-on in a cream finish, with a tortoise pickguard, gold hardware, and a three-and-three headstock. Dry attack, open treble — built for the studio and small rooms.",
     story:
       "A simpler instrument than Ember, with the same gravity. Photographed full-length on a dark seamless ground.",
-    hero: asset("guitars/host-hero.svg?v=10"),
-    gallery: [asset("guitars/host-hero.svg?v=10")],
+    hero: asset(`guitars/host-hero.svg?${V}`),
+    gallery: [asset(`guitars/host-hero.svg?${V}`)],
     specs: [
       { label: "Body", value: "Solidbody, bolt-on" },
       { label: "Neck", value: "Three-and-three" },
@@ -121,8 +122,8 @@ export const guitars: Guitar[] = [
       "Kveld is an offset electric in metallic blue, with a pearloid pickguard, gold hardware, and two humbuckers. Built as a companion — more chamber than concert hall.",
     story:
       "Studio light on a dark ground. The lacquer holds the room; the silhouette is the whole argument.",
-    hero: asset("guitars/kveld-hero.svg?v=10"),
-    gallery: [asset("guitars/kveld-hero.svg?v=10")],
+    hero: asset(`guitars/kveld-hero.svg?${V}`),
+    gallery: [asset(`guitars/kveld-hero.svg?${V}`)],
     specs: [
       { label: "Body", value: "Offset solidbody" },
       { label: "Neck", value: "Six-in-line" },
