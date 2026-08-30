@@ -6,7 +6,9 @@ import { Button } from "@/components/ui/button";
 import { asset } from "@/lib/base";
 import { guitars } from "@/lib/guitars";
 
-export const Route = createFileRoute("/")({ component: Home });
+export const Route = createFileRoute("/")({
+  component: Home,
+});
 
 function Home() {
   const featured = ["ember", "rav", "kveld"]
@@ -17,7 +19,7 @@ function Home() {
     <main>
       <section className="relative min-h-dvh overflow-hidden bg-bg">
         <img
-          src={asset("guitars/ember-hero.svg?v=10")}
+          src={asset("guitars/ember-hero.svg?v=11")}
           alt="Sörhuus Ember, a hand-built electric guitar"
           className="absolute inset-0 h-full w-full object-cover object-[center_30%]"
         />
@@ -109,7 +111,7 @@ function Home() {
 
       <section className="relative min-h-[70vh] overflow-hidden border-t border-border">
         <img
-          src={asset("guitars/kveld-hero.svg?v=10")}
+          src={asset("guitars/kveld-hero.svg?v=11")}
           alt="Kveld in the studio"
           className="absolute inset-0 h-full w-full object-cover object-center"
         />
